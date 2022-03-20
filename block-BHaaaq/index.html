@@ -1,0 +1,99 @@
+<!---
+### Create a page according to the layout shown below
+
+![Box Model Exercise 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+--->
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Assignment two</title>
+        <style>
+            .body {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                font: inherit;
+                vertical-align: baseline;
+            }
+            /*reset */
+            .box {
+                width: 130px;
+                height: 100px;
+                background-color: rgb(180, 8, 8);
+                display: inline-block;
+            }
+            .one {
+                border: 3px solid black;
+                margin: 18px;
+            }
+            .two {
+                border: 3px solid black;
+                margin: 20px;
+            }
+            .three {
+                border: 3px dashed black;
+                margin: 20px;
+            }
+            .four {
+                border: 3px dotted black;
+                margin: 20px;
+            }
+            .five {
+                background-color: rgb(180, 8, 8);
+                margin: 20px;
+            }
+            .margin-top-30-px {
+                margin-top: 30px;
+                
+            }
+            .purple-box {
+                border: 18px purple solid;
+                width: 320px;
+                height: 350px;
+                margin: 10px;
+            }
+            .multi-color-box {
+                border-top: 15px solid blue;
+                border-left: 15px solid green;
+                border-right: 15px solid grey;
+                border-bottom: 15px solid yellow;
+                height: 320px;
+                background-color: rgb(221, 42, 42);
+                width: 290px;
+            }
+            p {
+                color: azure;
+                text-align: center;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+    <h1>Exercise Two</h1>
+    <div class="box one"></div>
+
+    <div class="margin-top-30-px">
+     <div class="box two"></div>
+     <div class="box three"></div>
+    </div>
+
+    <div class="margin-top-30-px">
+      <div class="box four"></div>
+      <div class="box five"></div>
+    </div>
+    <div class="margin-top-30-px">
+      <div class="purple-box">
+          <div class="multi-color-box">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste ab doloribus exercitationem esse cupiditate odit? Impedit molestias id aut neque accusamus voluptatibus quaerat eos fugit numquam culpa, ut consequatur doloremque?</p>
+              <p> ipsum dolor sit amet consectetur adipisicing elit. Ad, reprehenderit minima. Quod eveniet perferendis fuga qui atque error repellendus omnis quo a, quasi vero nam, temporibus illo accusamus? Officiis, iste.</p>
+           </div>
+        </div>
+    </div>    
+    </body>
+</html>
